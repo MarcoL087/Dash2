@@ -27,7 +27,7 @@ fig.update_layout(
 )
 
 app = dash.Dash(__name__)
-
+server= app.server
 
 app.layout = html.Div(
     style={ 'background-image': 'url("/assets/background.jpg")',
