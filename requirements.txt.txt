@@ -1,4 +1,0 @@
-pandas
-dash==2.15.0
-plotly-express==0.4.1
-gunicorn
