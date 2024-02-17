@@ -3,7 +3,7 @@ from dash import dcc, html
 import plotly.express as px
 import pandas as pd
 
-df = pd.read_csv('D:/Docs/Wild/Dash/dash2/df_books.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/chriszapp/datasets/main/books.csv', on_bad_lines='skip')
 
 top_10_books = df.head(10)
 
