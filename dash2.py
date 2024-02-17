@@ -53,7 +53,8 @@ app.layout = html.Div(
         dcc.Dropdown(
             id='author-dropdown',
             options=[{'label': author, 'value': author} for author in df['authors'].unique()],
-            multi=True
+            multi=True,
+            style={'color': '#2a2a2b'}
         ),
         
         html.Label("Enter a maximum number of pages:",style={'font-family': 'system-ui', 'margin-top': '50px', 'margin-bottom': '50px'}),
